@@ -1,1 +1,1 @@
-# SC1015-Miniproject
+# SC1015-Minitest
