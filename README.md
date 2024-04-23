@@ -4,7 +4,7 @@
 
 SC1015 Mini-project that utilises data of applicant's demographic and financial information to determine whether a loan should be approved or rejected based on the provided data.
 
-- [Data Extraction, Preparation and Cleaning]
+- [Data Extraction, Preparation and Cleaning] (https://github.com/Tableunstable/Financial-Loan-Analysis/blob/main/data-extraction-prep-cleaning.ipynb)
 - [Exploratory Data Analysis / Visualisation]
 - [Logistic Regression]
 - [Random Forest]
