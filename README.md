@@ -47,7 +47,8 @@ SC1015 Mini-project that utilises data of applicant's demographic and financial 
 - Both models perform exceptionally well with the PCA-transformed dataset. The choice between Random Forest and Logistic Regression should be guided by the specific needs of application:
 > - **For robustness and handling complex patterns:** Choose Random Forest.
 > - **For speed, interpretability, and excellent class discrimination:** Opt for Logistic Regression.
-- Yes, it is possible to predict loan approval of an applicant given enough data and variables.
+- Most of the variables had little impact to the decision making of approving a loan.
+- Yes, it is possible to predict loan approval of an applicant given enough data and variables, but the most important factor is the `cibil_score`.
 
 
 ## What new knowledge or insights we acquired from this mini project?
