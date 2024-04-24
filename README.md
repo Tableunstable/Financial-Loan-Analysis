@@ -43,15 +43,11 @@ SC1015 Mini-project that utilises data of applicant's demographic and financial 
   
 > - **Logistic Regression** generally requires less computational resources, making it faster to train on smaller or medium-sized datasets.
 
-### Use Case Applicability:
-> - If the application requires a model that can provide insights into feature importance and complex interactions, **Random Forest** would be preferable due to its ability to model nonlinear relationships and feature interactions.
-
-> - If the primary requirement is for a model that provides quick predictions and is easy to implement and interpret, **Logistic Regression** would be advantageous, especially when the underlying decision boundary between classes is linear.
-
 ## Conclusion (TLDR) :
-Both models perform exceptionally well with the PCA-transformed dataset. The choice between Random Forest and Logistic Regression should be guided by the specific needs of application:
-- **For robustness and handling complex patterns:** Choose Random Forest.
-- **For speed, interpretability, and excellent class discrimination:** Opt for Logistic Regression.
+- Both models perform exceptionally well with the PCA-transformed dataset. The choice between Random Forest and Logistic Regression should be guided by the specific needs of application:
+> - **For robustness and handling complex patterns:** Choose Random Forest.
+> - **For speed, interpretability, and excellent class discrimination:** Opt for Logistic Regression.
+- Yes, it is possible to predict loan approval of an applicant given enough data and variables.
 
 
 ## What new knowledge or insights we acquired from this mini project?
