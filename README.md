@@ -50,7 +50,7 @@ SC1015 Mini-project that utilises data of applicant's demographic and financial 
 - Most of the variables had little impact to the decision making of approving a loan.
 - Dimensionality reduction (PCA) was used to reduce multicollinearity.
 - PCA-dataset did not affect the interpretability of loan approval as accuracy remained high.
-- Yes, it is possible to predict loan approval of an applicant given enough data and variables, but the most important factor is the `cibil_score`.
+- Yes, it is possible to predict loan approval of an applicant given enough data and variables.
 
 
 ## What new knowledge or insights we acquired from this mini project?
