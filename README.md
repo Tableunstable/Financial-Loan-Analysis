@@ -58,7 +58,7 @@ Both models perform exceptionally well with the PCA-transformed dataset. The cho
 - Logistic Regression from sklearn
 - Random Forest from sklearn
 - Feature engineering
-- Principal Componenet Analysis
+- Principal Component Analysis
 - Standard scaler
 - Label Encoding
 - K-fold cross-validation
