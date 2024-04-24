@@ -36,23 +36,30 @@ SC1015 Mini-project that utilises data of applicant's demographic and financial 
 - ROC curve and AUC
 
 ## References
-Definition for cibil scores : 
-https://www.bankbazaar.com/cibil/cibil-credit-score.html?ck=Y%2BziX71XnZjIM9ZwEflsyCu5g0osYx%2ByXts24P7rMyyj8dAQXRcJsyhnoHA4bhhF 
-Why use label encoding instead of one hot encoding :
-https://www.analyticsvidhya.com/blog/2020/03/one-hot-encoding-vs-label-encoding-using-scikit-learn/ 
-Standard scaler: 
+- Definition for cibil scores : https://www.bankbazaar.com/cibil/cibil-credit-score.html?ck=Y%2BziX71XnZjIM9ZwEflsyCu5g0osYx%2ByXts24P7rMyyj8dAQXRcJsyhnoHA4bhhF
+  
+- Why use label encoding instead of one hot encoding :
+https://www.analyticsvidhya.com/blog/2020/03/one-hot-encoding-vs-label-encoding-using-scikit-learn/
+
+- Standard scaler: 
 https://www.geeksforgeeks.org/what-is-standardscaler/ 
-https://medium.com/analytics-vidhya/standardscaler-and-normalization-with-code-and-graph-ba220025c054 
-Moveable and immovable assets:
-https://krestonsa.com/movable-and-immovable-assets/ 
-Feature engineering:
+https://medium.com/analytics-vidhya/standardscaler-and-normalization-with-code-and-graph-ba220025c054
+
+- Moveable and immovable assets:
+https://krestonsa.com/movable-and-immovable-assets/
+
+- Feature engineering:
 https://builtin.com/articles/feature-engineering
-Label Encoding:
+
+- Label Encoding:
 https://saturncloud.io/glossary/label-encoding/#:~:text=Label%20encoding%20is%20a%20process,used%20for%20analysis%20and%20modelling.
-PCA: 
+
+- PCA: 
 https://builtin.com/data-science/step-step-explanation-principal-component-analysis#:~:text=Principal%20component%20analysis%2C%20or%20PCA,information%20in%20the%20large%20set.
-K fold: 
-https://machinelearningmastery.com/k-fold-cross-validation/ 
-ROC curve: 
+
+- K fold: 
+https://machinelearningmastery.com/k-fold-cross-validation/
+
+- ROC curve: 
 https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc#:~:text=An%20ROC%20curve%20(receiver%20operating,False%20Positive%20Rate
   
