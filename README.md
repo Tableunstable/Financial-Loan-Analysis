@@ -23,7 +23,36 @@ SC1015 Mini-project that utilises data of applicant's demographic and financial 
 1. Logistic Regression
 2. Random Forest
 
-## Conclusion
+## Evaluation
+### Model Performance Metrics:
+> 1. **Random Forest**:
+   - Exhibits high accuracy, with average cross-validation scores around 97.86%.
+   - Shows stability and consistency across different data splits, suggesting good generalization.
+
+2. **Logistic Regression**:
+   - Achieves a high AUC score of approximately 0.985, indicating excellent discriminatory power.
+   - Also shows strong performance metrics like accuracy, precision, recall, and F1-score on the test set.
+
+### Model Suitability:
+- **Random Forest** is generally more robust to overfitting, especially with a large number of trees and diverse data. It’s effective in handling complex structural patterns in data, which can be advantageous if the dataset contains a lot of intricate relationships.
+  
+- **Logistic Regression** is highly interpretable and performs well in scenarios where the relationships between features and outcomes are approximately linear or when the focus is on the odds ratios of the predictors. The high AUC score suggests that it can effectively rank predictions, which is crucial in many binary classification tasks.
+
+### Computational Efficiency:
+- **Random Forest** can be computationally intensive, especially with large datasets and a large number of trees, potentially leading to longer training times.
+  
+- **Logistic Regression** generally requires less computational resources, making it faster to train on smaller or medium-sized datasets.
+
+### Use Case Applicability:
+- If the application requires a model that can provide insights into feature importance and complex interactions, **Random Forest** would be preferable due to its ability to model nonlinear relationships and feature interactions.
+
+- If the primary requirement is for a model that provides quick predictions and is easy to implement and interpret, **Logistic Regression** would be advantageous, especially when the underlying decision boundary between classes is linear.
+
+## TLDR Conclusion:
+Both models perform exceptionally well with the PCA-transformed dataset. The choice between Random Forest and Logistic Regression should be guided by the specific needs of application:
+- **For robustness and handling complex patterns:** Choose Random Forest.
+- **For speed, interpretability, and excellent class discrimination:** Opt for Logistic Regression.
+
 
 ## What new knowledge or insights we acquired from this mini project?
 - Logistic Regression from sklearn
