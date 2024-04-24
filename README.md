@@ -4,23 +4,36 @@
 
 SC1015 Mini-project that utilises data of applicant's demographic and financial information to determine whether a loan should be approved or rejected based on the provided data.
 
-- [Data Extraction, Preparation and Cleaning] (https://github.com/Tableunstable/Financial-Loan-Analysis/blob/main/data-extraction-prep-cleaning.ipynb)
+- [Data Extraction, Preparation and Cleaning](https://github.com/Tableunstable/Financial-Loan-Analysis/blob/main/data-extraction-prep-cleaning.ipynb)
   
-- [Exploratory Data Analysis and Splitting ] (https://github.com/Tableunstable/Financial-Loan-Analysis/blob/main/EDA%20and%20splitting.ipynb)
+- [Exploratory Data Analysis and Splitting ](https://github.com/Tableunstable/Financial-Loan-Analysis/blob/main/EDA%20and%20splitting.ipynb)
   
-- [Logistic Regression] (https://github.com/Tableunstable/Financial-Loan-Analysis/blob/main/Logistic%20Regression%20.ipynb)
+- [Logistic Regression](https://github.com/Tableunstable/Financial-Loan-Analysis/blob/main/Logistic%20Regression%20.ipynb)
   
-- [Random Forest] (https://github.com/Tableunstable/Financial-Loan-Analysis/blob/main/Random%20Forest.ipynb)
+- [Random Forest](https://github.com/Tableunstable/Financial-Loan-Analysis/blob/main/Random%20Forest.ipynb)
 
 
 
 ## Problem Definition
 
 - Are we able to predict an applicant's loan approval based on the variables used in the dataset?
+- Which model is the better to use?
+
+## Models Used
+1. Logistic Regression
+2. Random Forest
 
 ## Conclusion
 
 ## What new knowledge or insights we acquired from this mini project?
+- Logistic Regression from sklearn
+- Random Forest from sklearn
+- Feature engineering
+- Principal Componenet Analysis
+- Standard scaler
+- Label Encoding
+- K-fold cross-validation
+- ROC curve and AUC
 
 ## References
 Definition for cibil scores : 
