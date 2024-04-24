@@ -16,7 +16,7 @@ SC1015 Mini-project that utilises data of applicant's demographic and financial 
 
 ## Problem Definition
 
-- Are we able to predict an applicant's loan approval based on the variables used in the dataset?
+- Are we able to predict an applicant's loan approval based on the interesting variables (ex. education, no of dependents) used in the dataset? 
 - Which model is the better to use?
 
 ## Models Used
